@@ -16,6 +16,6 @@
   "requires": []
   },
   "url": "https://github.com/lanastara/discord-speaking-status/",
-  "manifest": "https://github.com/lanastara/discord-speaking-status/raw/v12/module.json",
-  "download": "https://github.com/lanastara/discord-speaking-status/raw/v12/discord-speaking-status.zip"
+  "manifest": "https://raw.githubusercontent.com/lanastara/discord-speaking-status/refs/heads/v12/module.json",
+  "download": "https://raw.githubusercontent.com/lanastara/discord-speaking-status/refs/heads/v12/discord-speaking-status.zip"
 }
