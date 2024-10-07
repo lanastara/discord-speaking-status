@@ -4,18 +4,18 @@
   "name": "discord-speaking-status",
   "title": "Discord Speaking Status",
   "description": "Indicates who is speaking in a Discord Voice Channel",
-  "authors": [{"name":"Xaukael"}],
-  "version": "1.2.5",
+  "authors": [{"name":"Lanastara"}{"name":"Xaukael"}],
+  "version": "1.2.6-beta1",
   "socket": true,
   "compatibility": {
       "minimum": "10",
-      "verified": "11"
+      "verified": "12"
     },
   "scripts": ["discord-speaking-status.js"],
   "relationships": {
   "requires": []
   },
-  "url": "https://github.com/xaukael/discord-speaking-status/",
-  "manifest": "https://github.com/xaukael/discord-speaking-status/raw/main/module.json",
-  "download": "https://github.com/xaukael/discord-speaking-status/raw/main/discord-speaking-status.zip"
+  "url": "https://github.com/lanastara/discord-speaking-status/",
+  "manifest": "https://github.com/lanastara/discord-speaking-status/raw/v12/module.json",
+  "download": "https://github.com/lanastara/discord-speaking-status/raw/v12/discord-speaking-status.zip"
 }

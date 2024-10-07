@@ -80,12 +80,15 @@ Hooks.on('renderSettings', (app, html)=>{
 })
 
 Hooks.on('renderUserConfig', (app, html, data)=>{
-  html.append(`<style>#${html.closest('.app').attr('id')} { height: auto !important;} </style>`)
-  html.find('form').prepend($(`
-        <div class="form-group">
-          <label>Discord User ID</label>
-          <input type="text" name="flags.discord-speaking-status.id">
-        </div>
+  let id = html.closest('.application').attr('id');
+  html.append(`<style>#${id} { height: auto !important;} </style>`)
+  html.find('section.standard-form').prepend($(`
+        <fieldset>
+          <label for="${id}-form-discord-id">Discord User ID</label>
+          <div class="form-fields">
+            <input type="text" id="${id}-form-discord-id" name="flags.discord-speaking-status.id">
+          </div>
+        </firldset>
   `));
   html.find('input[name="flags.discord-speaking-status.id"]').val(data.user.flags["discord-speaking-status"]?.id)
 });
