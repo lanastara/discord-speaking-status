@@ -3,7 +3,7 @@
   "name": "discord-speaking-status",
   "title": "Discord Speaking Status",
   "description": "Indicates who is speaking in a Discord Voice Channel",
-  "authors": [{"name":"Lanastara"}{"name":"Xaukael"}],
+  "authors": [{"name":"Lanastara"},{"name":"Xaukael"}],
   "version": "1.2.6-beta1",
   "socket": true,
   "compatibility": {
